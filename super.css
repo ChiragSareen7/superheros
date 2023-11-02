@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3 ,170px);
+}
+.hero{
+    border: 3px solid rgb(202, 202, 202);
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    
+}
+.name{
+    text-align: center;
+    font-size: larger;
+}
+.score{
+    text-align: center;
+    font-weight: 500;
+    font-size: xx-large;
+}
+.villan{
+    border: 3px solid rgb(202, 202, 202);
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(3 ,170px);
+}
+.flexx{
+    display: flex;
+    justify-content: space-between;
+}
+.middle{
+    font-size: 100px;
+}
